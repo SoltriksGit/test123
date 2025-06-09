@@ -1,0 +1,85 @@
+<!-- vpn.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HARGAJA-TECH | VPN Solutions</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    .gradient-text { background: linear-gradient(90deg, #008474, #006d61); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <header class="bg-white shadow">
+    <div class="container mx-auto p-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold gradient-text">VPN Solutions</h1>
+      <nav aria-label="Breadcrumb">
+        <ol class="inline-flex items-center space-x-1 text-gray-600">
+          <li><a href="index.html" class="hover:text-teal-600">Home</a></li>
+          <li><span>/</span></li>
+          <li><a href="index.html#services" class="hover:text-teal-600">Services</a></li>
+          <li><span>/ VPN Solutions</span></li>
+        </ol>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO BANNER -->
+  <section class="relative bg-cover bg-center h-64" style="background-image:url('https://source.unsplash.com/1600x400/?vpn,network');">
+    <div class="absolute inset-0 bg-teal-600/50"></div>
+    <div class="relative z-10 container mx-auto h-full flex items-center justify-center">
+      <h2 class="text-4xl font-extrabold text-white drop-shadow-lg">Enterprise-Grade VPN Services</h2>
+    </div>
+  </section>
+
+  <main class="container mx-auto p-6 space-y-16">
+    <!-- Image Showcase -->
+    <div data-aos="fade-up">
+      <img src="https://www.canberratimes.com.au/images/transform/v1/crop/frm/nyJNdbYwrvs4ar4apYrpG8/9110d405-f57e-4a9d-83d9-cadf211092db.jpg/r0_4_1000_566_w1200_h678_fmax.webp" alt="Secure VPN Network" class="rounded-lg shadow-lg mx-auto">
+    </div>
+
+    <section data-aos="fade-up" data-aos-delay="100">
+      <h2 class="text-3xl font-semibold mb-4 gradient-text">Overview</h2>
+      <p class="text-gray-700 leading-relaxed">
+        At HARGAJA-TECH, we design and deploy robust VPN architectures tailored to your organization’s needs. From high-performance site-to-site tunnels that link branch offices securely, to flexible SSL client-based access for remote teams, our solutions ensure end-to-end encryption, zero-trust compliance, and seamless user experience 24/7.
+      </p>
+    </section>
+
+    <section data-aos="fade-up" data-aos-delay="200">
+      <h2 class="text-3xl font-semibold mb-4 gradient-text">Key Features</h2>
+      <div class="grid md:grid-cols-2 gap-8 text-gray-700">
+        <ul class="list-disc list-inside space-y-2">
+          <li><span class="font-medium">High-Availability Clustering</span> – Active/active gateways for continuous uptime.</li>
+          <li><span class="font-medium">Advanced Encryption</span> – AES-256 and perfect forward secrecy for maximum data protection.</li>
+          <li><span class="font-medium">Multi-Factor Authentication (MFA)</span> – Layered user verification via OTP, tokens, or push-based apps.</li>
+        </ul>
+        <ul class="list-disc list-inside space-y-2">
+          <li><span class="font-medium">Centralized Policy Management</span> – Single pane of glass for user, device, and network policies.</li>
+          <li><span class="font-medium">Dynamic Access Control</span> – Role-based and context-aware segmentation for least-privilege access.</li>
+          <li><span class="font-medium">Cloud & Hybrid Integration</span> – Secure tunnels to public cloud platforms (AWS, Azure, GCP) and on-prem data centers.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section data-aos="fade-up" data-aos-delay="300">
+      <h2 class="text-3xl font-semibold mb-4 gradient-text">Use Case: Branch Office Connectivity</h2>
+      <p class="text-gray-700 leading-relaxed">
+        A multinational enterprise deployed our IPSec site-to-site VPN to interconnect 20+ branch offices across Europe. By integrating redundant VPN concentrators and dynamic routing, they achieved sub-second failover, consistent bandwidth, and end-to-end encryption for all interoffice traffic.
+      </p>
+    </section>
+
+    <section data-aos="fade-up" data-aos-delay="400">
+      <h2 class="text-3xl font-semibold mb-4 gradient-text">Use Case: Secure Remote Workforce</h2>
+      <p class="text-gray-700 leading-relaxed">
+        For a global services firm with 5,000+ mobile employees, we rolled out SSL VPN portals and a lightweight client. Users connect from any device—laptop, tablet, or smartphone—and gain secure access to corporate apps, file shares, and intranet resources without compromising performance or security posture.
+      </p>
+    </section>
+  </main>
+
+  <footer class="bg-gray-100 text-gray-600 p-6 text-center">&copy; 2025 HARGAJA-TECH. All rights reserved.</footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init({ duration: 800, once: true });</script>
+</body>
+</html>

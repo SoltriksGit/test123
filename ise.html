@@ -1,0 +1,72 @@
+<!-- ise.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HARGAJA-TECH | Cisco ISE</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    .gradient-text { background: linear-gradient(90deg, #008474, #006d61); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <header class="bg-white shadow">
+    <div class="container mx-auto p-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold gradient-text">Cisco ISE</h1>
+      <nav aria-label="Breadcrumb">
+        <ol class="inline-flex items-center space-x-1 text-gray-600">
+          <li><a href="index.html" class="hover:text-teal-600">Home</a></li>
+          <li><span>/</span></li>
+          <li><a href="index.html#services" class="hover:text-teal-600">Services</a></li>
+          <li><span>/ Cisco ISE</span></li>
+        </ol>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO BANNER -->
+  <section class="relative bg-cover bg-center h-64" style="background-image:url('https://source.unsplash.com/1600x400/?network-security');">
+    <div class="absolute inset-0 bg-teal-600/50"></div>
+    <div class="relative z-10 container mx-auto h-full flex items-center justify-center">
+      <h2 class="text-4xl font-extrabold text-white drop-shadow-lg">Cisco Identity Services Engine</h2>
+    </div>
+  </section>
+
+  <main class="container mx-auto p-6 space-y-16">
+    <!-- Image Showcase -->
+    <div data-aos="fade-up">
+      <img src="https://images.squarespace-cdn.com/content/v1/565b775de4b02fbb0a4961df/1464834579393-LUWJHYAYDAA1M8JIWCLY/image-asset.jpeg?format=2500w" alt="Cisco ISE Dashboard" class="rounded-lg shadow-lg mx-auto">
+    </div>
+
+    <section data-aos="fade-up" data-aos-delay="100">
+      <h2 class="text-3xl font-semibold mb-4 gradient-text">Overview</h2>
+      <p class="text-gray-700 leading-relaxed">Cisco Identity Services Engine (ISE) is a robust policy management platform that ensures secure network access by dynamically identifying, profiling, and enforcing policies for every device and user. It unifies authentication, authorization, and accounting (AAA) functions across wired, wireless, and VPN environments, providing centralized security control.</p>
+    </section>
+
+    <section data-aos="fade-up" data-aos-delay="200">
+      <h2 class="text-3xl font-semibold mb-4 gradient-text">Key Features</h2>
+      <div class="grid md:grid-cols-2 gap-8 text-gray-700">
+        <ul class="list-disc list-inside space-y-2">
+          <li><span class="font-medium">Device Profiling & Posture Assessment</span> – Continuous evaluation of device health and compliance.</li>
+          <li><span class="font-medium">Guest & BYOD Onboarding</span> – Secure self-service portals for guests and personal devices.</li>
+        </ul>
+        <ul class="list-disc list-inside space-y-2">
+          <li><span class="font-medium">Dynamic VLAN & ACL Assignment</span> – Automated network segmentation based on user roles.</li>
+          <li><span class="font-medium">Integration with Cisco DNA Center & PKI</span> – Centralized orchestration and certificate-based authentication.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section data-aos="fade-up" data-aos-delay="300">
+      <h2 class="text-3xl font-semibold mb-4 gradient-text">Use Case: University Campus</h2>
+      <p class="text-gray-700 leading-relaxed">At a large university, Cisco ISE provides role-based access for students, faculty, and guests. By leveraging dynamic profiling and policy enforcement, the campus network ensures only compliant devices connect, simplifies onboarding, and maintains continuous security across all access methods.</p>
+    </section>
+  </main>
+
+  <footer class="bg-gray-100 text-gray-600 p-6 text-center">&copy; 2025 HARGAJA-TECH</footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init({ duration: 800, once: true });</script>
+</body>
+</html>

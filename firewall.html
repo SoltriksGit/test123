@@ -1,0 +1,89 @@
+<!-- firewall.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HARGAJA-TECH | Firewall Solutions</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    .gradient-text { 
+      background: linear-gradient(90deg, #008474, #006d61); 
+      -webkit-background-clip: text; 
+      -webkit-text-fill-color: transparent; 
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <header class="bg-white shadow">
+    <div class="container mx-auto p-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold gradient-text">Firewall Solutions</h1>
+      <nav aria-label="Breadcrumb">
+        <ol class="inline-flex items-center space-x-1 text-gray-600">
+          <li><a href="index.html" class="hover:text-teal-600">Home</a></li>
+          <li><span>/</span></li>
+          <li><a href="index.html#services" class="hover:text-teal-600">Services</a></li>
+          <li><span>/ Firewall Solutions</span></li>
+        </ol>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO BANNER -->
+  <section class="relative bg-cover bg-center h-64" style="background-image:url('https://source.unsplash.com/1600x400/?firewall,network-security');">
+    <div class="absolute inset-0 bg-teal-600/50"></div>
+    <div class="relative z-10 container mx-auto h-full flex items-center justify-center">
+      <h2 class="text-4xl font-extrabold text-white drop-shadow-lg">Next-Generation Firewall</h2>
+    </div>
+  </section>
+
+  <main class="container mx-auto p-6 space-y-16">
+    <!-- Image Showcase -->
+    <div data-aos="fade-up">
+      <img src="https://blog.omnetworks.com.np/content/images/size/w1200/2022/12/Next-Gen-firewalls.jpg" alt="Enterprise Firewall Dashboard" class="rounded-lg shadow-lg mx-auto">
+    </div>
+
+    <section data-aos="fade-up" data-aos-delay="100">
+      <h2 class="text-3xl font-semibold mb-4 gradient-text">Overview</h2>
+      <p class="text-gray-700 leading-relaxed">
+        Our firewall solutions provide a multi-layered defense to protect your network perimeter, data center, and cloud environments. We implement stateful packet inspection, deep packet inspection (DPI), and behavior-based threat detection to block attacks before they compromise your infrastructure.
+      </p>
+    </section>
+
+    <section data-aos="fade-up" data-aos-delay="200">
+      <h2 class="text-3xl font-semibold mb-4 gradient-text">Key Features</h2>
+      <div class="grid md:grid-cols-2 gap-8 text-gray-700">
+        <ul class="list-disc list-inside space-y-2">
+          <li><span class="font-medium">Intrusion Prevention System (IPS)</span> – Real-time detection and blocking of exploits and malware.</li>
+          <li><span class="font-medium">Application Control</span> – Granular policies for over 4,000 applications.</li>
+          <li><span class="font-medium">Threat Intelligence</span> – Automated updates from global threat feeds.</li>
+        </ul>
+        <ul class="list-disc list-inside space-y-2">
+          <li><span class="font-medium">User & Device Identity</span> – Role-based policies tied to user directories (LDAP, AD).</li>
+          <li><span class="font-medium">SSL/TLS Inspection</span> – Decrypt and inspect encrypted traffic without performance impact.</li>
+          <li><span class="font-medium">High-Performance Clustering</span> – Scale out with active/active firewall clusters for zero downtime.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section data-aos="fade-up" data-aos-delay="300">
+      <h2 class="text-3xl font-semibold mb-4 gradient-text">Use Case: Data Center Protection</h2>
+      <p class="text-gray-700 leading-relaxed">
+        For a financial services data center, we deployed a clustered next-generation firewall with strict east-west segmentation. By combining IPS, threat intelligence, and user-based policies, the organization saw a 90% reduction in successful lateral attacks within the first month.
+      </p>
+    </section>
+
+    <section data-aos="fade-up" data-aos-delay="400">
+      <h2 class="text-3xl font-semibold mb-4 gradient-text">Use Case: Cloud & Hybrid Environments</h2>
+      <p class="text-gray-700 leading-relaxed">
+        A tech startup with hybrid workloads in AWS and on-premises needed consistent policy enforcement. We integrated virtual firewalls in their VPCs and extended management to on-prem hardware, delivering unified logging, automated rule deployment, and compliance reporting across both environments.
+      </p>
+    </section>
+  </main>
+
+  <footer class="bg-gray-100 text-gray-600 p-6 text-center">&copy; 2025 HARGAJA-TECH. All rights reserved.</footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init({ duration: 800, once: true });</script>
+</body>
+</html>

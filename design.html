@@ -1,0 +1,89 @@
+<!-- design.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HARGAJA-TECH | Network Design</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    .gradient-text { 
+      background: linear-gradient(90deg, #008474, #006d61); 
+      -webkit-background-clip: text; 
+      -webkit-text-fill-color: transparent; 
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <header class="bg-white shadow">
+    <div class="container mx-auto p-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold gradient-text">Network Design</h1>
+      <nav aria-label="Breadcrumb">
+        <ol class="inline-flex items-center space-x-1 text-gray-600">
+          <li><a href="index.html" class="hover:text-teal-600">Home</a></li>
+          <li><span>/</span></li>
+          <li><a href="index.html#services" class="hover:text-teal-600">Services</a></li>
+          <li><span>/ Network Design</span></li>
+        </ol>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO BANNER -->
+  <section class="relative bg-cover bg-center h-64" style="background-image:url('https://source.unsplash.com/1600x400/?network-topology,architecture');">
+    <div class="absolute inset-0 bg-teal-600/50"></div>
+    <div class="relative z-10 container mx-auto h-full flex items-center justify-center">
+      <h2 class="text-4xl font-extrabold text-white drop-shadow-lg">Strategic Network Architecture</h2>
+    </div>
+  </section>
+
+  <main class="container mx-auto p-6 space-y-16">
+    <!-- Image Showcase -->
+    <div data-aos="fade-up">
+      <img src="https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-network-design/jcr:content/Grid/category_atl_copy/layout-category-atl/anchor_info.img.jpg/1631155136570.jpg" alt="Network Topology Diagram" class="rounded-lg shadow-lg mx-auto">
+    </div>
+
+    <section data-aos="fade-up" data-aos-delay="100">
+      <h2 class="text-3xl font-semibold mb-4 gradient-text">Overview</h2>
+      <p class="text-gray-700 leading-relaxed">
+        HARGAJA-TECH delivers end-to-end network design services—from initial requirements gathering and capacity planning to detailed topology diagrams and technology selection. We ensure your network meets performance, scalability, and resilience goals while aligning with business objectives and industry best practices.
+      </p>
+    </section>
+
+    <section data-aos="fade-up" data-aos-delay="200">
+      <h2 class="text-3xl font-semibold mb-4 gradient-text">Key Components</h2>
+      <div class="grid md:grid-cols-2 gap-8 text-gray-700">
+        <ul class="list-disc list-inside space-y-2">
+          <li><span class="font-medium">Logical & Physical Topology</span> – Design of core, distribution, and access layers.</li>
+          <li><span class="font-medium">Routing & Switching Architecture</span> – Protocol selection (OSPF, BGP), spine-leaf or collapsed core.</li>
+          <li><span class="font-medium">High Availability</span> – Redundancy with VRRP/HSRP, link aggregation, and multi-chassis setups.</li>
+        </ul>
+        <ul class="list-disc list-inside space-y-2">
+          <li><span class="font-medium">Capacity Planning</span> – Bandwidth forecasting, QoS policy design for voice, video, and data.</li>
+          <li><span class="font-medium">SD-WAN & Cloud Connectivity</span> – Hybrid WAN strategies, MPLS-to-Internet offload.</li>
+          <li><span class="font-medium">Wireless & IoT Integration</span> – Site surveys, controller-based WLAN, IoT segmentation.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section data-aos="fade-up" data-aos-delay="300">
+      <h2 class="text-3xl font-semibold mb-4 gradient-text">Use Case: Corporate Campus</h2>
+      <p class="text-gray-700 leading-relaxed">
+        For a multi-building corporate campus, we crafted a modular network design with dual-core switches, redundant fiber rings, and PoE access layers. This architecture supports high-throughput data, VoIP services, and secure guest Wi-Fi—all managed via a centralized network controller.
+      </p>
+    </section>
+
+    <section data-aos="fade-up" data-aos-delay="400">
+      <h2 class="text-3xl font-semibold mb-4 gradient-text">Use Case: Data Center Fabric</h2>
+      <p class="text-gray-700 leading-relaxed">
+        A large e-commerce provider required a low-latency data center fabric. We implemented a spine-leaf design using Cisco Nexus platforms, enabled EVPN-VXLAN overlay for multi-tenancy, and automated configuration with Ansible—delivering seamless east-west traffic and zero-touch provisioning.
+      </p>
+    </section>
+  </main>
+
+  <footer class="bg-gray-100 text-gray-600 p-6 text-center">&copy; 2025 HARGAJA-TECH. All rights reserved.</footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init({ duration: 800, once: true });</script>
+</body>
+</html>
